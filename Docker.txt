@@ -1,0 +1,29 @@
+#Docker:
+->It is a conatainer platform that allows you to build,test and deploy applications quickly.
+->It also helps us run our applications in a isolated environments.
+
+#Containers:
+It is a template where all the dependencies,configurationand source code of an application are packaged together.
+
+Commands:
+
+-> To pull image from docker hub
+docker pull image_name
+
+->To run the container on the computer
+docker run image_name
+
+->To check images present in our local system
+docker images
+
+->To know all the running containers
+docker ps
+
+->To stop the running container
+docker stop cotainer_id
+
+->To start the stopped container
+docker start container_id
+
+->To list out running and stopped containers
+docker ps -a
